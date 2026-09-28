@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
     <link rel="icon" href="/assets/images/webp/fav-icon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
     <style type="text/tailwindcss">
@@ -61,8 +63,7 @@
         </div>
 
         <div class=" flex items-center justify-center max-h-[559px]">
-            <img src="/assets/images/png/hero-bg.png" class="max-sm:h-[318px] w-[1440px] max-sm:object-cover"
-                alt="BG_IMAGE_1">
+            <img src="/assets/images/png/hero-bg.png" class="max-sm:h-[318px] max-sm:object-cover" alt="BG_IMAGE_1">
         </div>
     </section>
 
@@ -72,10 +73,10 @@
             <div
                 class="flex items-center justify-between gap-[40px] max-sm:gap-[28px] flex-wrap max-sm:flex-col max-xl:justify-center">
                 <div class="flex flex-col max-xl:w-full max-xl:items-center max-xl:justify-center">
-                    <button
-                        class="mb-[10px] border border-white rounded-[31px] px-[20px] py-[5px] text-lg leading-111 font-medium text-white cursor-pointer hover:border-dark-brown hover:text-dark-brown w-fit hover:bg-white transition-all duration-300 ease-in">
+                    <div
+                        class="mb-[10px] border border-white rounded-[31px] px-[20px] py-[5px] text-lg leading-111 font-medium text-white w-fit">
                         Abou Us
-                    </button>
+                    </div>
 
                     <h2
                         class="font-light leading-129 capitalize max-lg:text-center max-lg:max-w-full text-custom-6xl max-sm:text-4xl max-md:text-5xl max-lg:text-6xl max-w-[594px] max-xl:max-w-full max-xl:text-center text-white italic">
@@ -149,8 +150,8 @@
 
     <!-- Section Four -->
     <section
-        class="bg-off-white relative bg-[url('/assets/images/png/bg-img-2.png')] bg-center bg-contain bg-no-repeat">
-        <div class="mx-auto max-w-[1181px] w-full px-[20px]">
+        class="bg-off-white relative max-md:bg-none bg-[url('/assets/images/png/bg-img-2.png')] bg-center bg-contain bg-no-repeat">
+        <div data-aos="fade-up-right" data-aos-duration="500" class="mx-auto max-w-[1181px] w-full px-[20px]">
             <div>
                 <h2
                     class="text-gray-light text-custom-6xl font-light leading-129 max-w-[738px] max-lg:max-w-full text-center max-xl:max-w-full max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-lg:mb-[60px] italic capitalize">
@@ -208,7 +209,7 @@
                         </div>
 
                         <div class="swiper-slide mt-[44px] max-lg:mt-0">
-                            <div class="relative flex flex-col gap-[22px] bg-off-white">
+                            <div class="relative overflow-hidden flex flex-col gap-[22px] bg-off-white">
                                 <div>
                                     <img height="485" width="362" src="/assets/images/png/slider-img-2.png"
                                         alt="JHONE_DOE_IMAGE_2">
@@ -256,7 +257,7 @@
                         </div>
 
                         <div class="swiper-slide ">
-                            <div class="relative flex flex-col gap-[22px] bg-off-white">
+                            <div class="relative overflow-hidden flex flex-col gap-[22px] bg-off-white">
                                 <div>
                                     <img height="485" width="362" src="/assets/images/png/slider-img-3.png"
                                         alt="JHONE_DOE_IMAGE_#3">
@@ -367,11 +368,11 @@
 
     <!-- Section Five -->
     <section
-        class="bg-[url('/assets/images/png/bg-img-2.png')] pt-[185px] max-lg:pt-[80px] max-md:pt-[60px] max-sm:pt-[103px] bg-off-white bg-contain bg-no-repeat bg-bottom">
+        class="bg-[url('/assets/images/png/bg-img-2.png')] pt-[185px] max-lg:pt-[80px] max-md:pt-[60px] max-sm:pt-[103px] bg-off-white bg-contain bg-bottom max-sm:bg-left bg-no-repeat">
         <div class="mx-auto  max-w-[1180px] w-full px-[20px]">
             <div class="flex flex-col items-center justify-center gap-[44px] max-sm:gap-[46px]">
 
-                <div>
+                <div data-aos="fade-up-right" data-aos-duration="500">
                     <h2
                         class="text-gray-light text-custom-6xl leading-129 max-w-[738px] font-bold text-center max-sm:max-w-full max-lg:text-6xl max-md:text-5xl max-sm:text-4xl">
                         Invest <span class="font-light italic">cryptocurrency</span> Portfolio
@@ -593,7 +594,7 @@
                                     Consectetur sagittis
                                 </p>
                                 <p
-                                    class="text-base text-white/70 font-normal max-sm:mt-[10px] max-sm:mr-[-2px] capitalize leading-normal max-xl:max-w-full max-w-[491px]">
+                                    class="text-base text-white/70 font-normal max-sm:mt-[10px] max-sm:mr-[-2px]  leading-normal max-xl:max-w-full max-w-[491px]">
                                     Fermentum praesent vel adipiscing eget dictum. Risus id tellus mauris lorem ornare
                                     titor a neque nullam libero nunc eget.
                                 </p>
@@ -607,7 +608,7 @@
 
     <!-- Section Seven -->
     <section
-        class="bg-[url('/assets/images/png/bottom-bg-img.png')] pb-[170px] max-md:pb-[96px] max-lg:pb-[100px] bg-off-white bg-cover bg-no-repeat bg-center">
+        class="bg-[url('/assets/images/png/bottom-bg-img.png')] pb-[170px] max-md:pb-[96px] max-lg:pb-[100px] bg-off-white bg-cover bg-no-repeat bg-center max-sm:bg-[length:100%]">
         <div class="mx-auto max-w-[1180px] px-[20px] w-full">
             <div class="w-full flex flex-col items-center justify-center">
                 <div class="">
@@ -631,7 +632,7 @@
                         <div
                             class="flex min-w-[365px] bg-white py-[20px] px-[23px] gap-[23px] max-sm:gap-[15px] items-center justify-start border border-black rounded-[16px] max-sm:py-[18px] max-sm:pl-[21px] max-sm:pr-[10px] max-md:max-w-full max-md:w-full max-md:min-w-0">
                             <div
-                                class="hover:shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[9px_5px_8px_12px] rounded-[14px]">
+                                class="shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[9px_5px_8px_12px] rounded-[14px]">
                                 <img height="56" width="56"
                                     class="max-w-[56px] max-sm:max-w-[51px] min-w-[51px] max-sm:max-h-[51px] w-full max-h-[56px]"
                                     src="/assets/images/svg/card-img-1.svg" alt="CARD_IMAGE_1">
@@ -648,7 +649,7 @@
                         <div
                             class="flex min-w-[365px] bg-white py-[20px] px-[23px] gap-[23px] max-sm:gap-[13px] items-center justify-start border border-black rounded-[16px] max-md:max-w-full max-md:min-w-0 max-md:w-full max-sm:pl-[21px] max-sm:pr-[10px] max-sm:py-[18px]">
                             <div
-                                class="hover:shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[9px] rounded-[14px]">
+                                class="shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[9px] rounded-[14px]">
                                 <img height="55" width="55"
                                     class="max-w-[55px] w-full max-h-[55px] max-sm:max-w-[50px] min-w-[50px]"
                                     src="/assets/images/svg/card-img-2.svg" alt="CARD_IMAGE_2">
@@ -669,7 +670,7 @@
                         <div
                             class="flex max-w-[365px] bg-white max-md:max-w-full max-md:w-full max-md:min-w-0 max-sm:pr-[10px] max-sm:pl-[21px] max-sm:py-[18px] min-w-[365px] py-[20px] px-[23px] gap-[23px] max-sm:gap-[15px] items-center justify-start border border-black rounded-[16px]">
                             <div
-                                class="hover:shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[10px_10px_11px_11px] rounded-[14px]">
+                                class="shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[10px_10px_11px_11px] rounded-[14px]">
                                 <img height="52" width="52"
                                     class="max-w-[52px] w-full max-h-[52px] max-sm:max-w-[47px] min-w-[47px]"
                                     src="/assets/images/svg/card-img-3.svg" alt="CARD_IMAGE_3">
@@ -686,7 +687,7 @@
                         <div
                             class="flex max-w-[365px] bg-white min-w-[365px] max-sm:min-w-0 py-[20px] px-[23px] gap-[23px] max-sm:gap-[18px] items-center justify-start border border-black rounded-[16px] max-sm:pl-[21px] max-sm:pr-[10px] max-sm:py-[18px] max-md:max-w-full w-full">
                             <div
-                                class="hover:shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[10px_10px_9px_9px] rounded-[14px]">
+                                class="shadow-[0px_4px_31.4px_0px_#DAAF95] bg-dark-brown transition-all duration-300 ease-in size-[73px] max-sm:size-[66px] p-[10px_10px_9px_9px] rounded-[14px]">
                                 <img height="54" width="54"
                                     class="max-w-[54px] w-full max-h-[54px] max-sm:max-w-[49px] min-w-[49px]"
                                     src="/assets/images/svg/card-img-4.svg" alt="CARD_IMAGE_4">
@@ -792,8 +793,9 @@
                 <div
                     class="flex items-center max-sm:flex-col max-sm:justify-center max-sm:gap-[9px] justify-between gap-[40px] pt-[18px]">
                     <div>
-                        <p class="text-base text-white/70 font-normal text-center capitalize leading-normal">Privacy
-                            Policy | Conditions</p>
+                        <a href="#"
+                            class="text-base text-white/70 font-normal text-center capitalize leading-normal">Privacy
+                            Policy | Conditions</a>
                     </div>
                     <div>
                         <p class="text-base text-white/70 font-normal text-center capitalize leading-normal">ZenPeak |
@@ -807,6 +809,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
 
@@ -906,6 +909,7 @@
             },
         });
 
+        AOS.init();
 
     </script>
 
